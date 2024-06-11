@@ -5,7 +5,7 @@ export default function Form() {
   const styles = {
     back: { 
       position: 'relative',
-      backgroundImage: 'url(/assets/formbg.png)',
+      backgroundImage: 'url(./formbg.png)',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       backgroundPosition: 'center',

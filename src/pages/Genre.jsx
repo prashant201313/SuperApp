@@ -8,55 +8,55 @@ const MOVIES = [
     id: 0,
     category: "Action",
     backgroundColor: "#FF5209",
-    image: "/assets/action.png"
+    image: "./action.png"
   }, 
   {
     id: 1,
     category: "Drama",
     backgroundColor: "#D7A4FF",
-    image: "/assets/drama.png"
+    image: "./drama.png"
   },
   {
     id: 2,
     category: "Romance",
     backgroundColor: "#148A08",
-    image: "/assets/romance.png"
+    image: "./romance.png"
   },
   {
     id: 3,
     category: "Thriller",
     backgroundColor: "#84C2FF",
-    image: "/assets/thriller.png"
+    image: "./thriller.png"
   },
   {
     id: 4,
     category: "Western",
     backgroundColor: "#902500",
-    image: "/assets/western.png"
+    image: "./western.png"
   },
   {
     id: 5,
     category: "Horror",
     backgroundColor: "#7358FF",
-    image: "/assets/horror.png"
+    image: "./horror.png"
   },
   {
     id: 6,
     category: "Fantasy",
     backgroundColor: "#FF4ADE",
-    image: "/assets/fantasy.png"
+    image: "./fantasy.png"
   },
   {
     id: 7,
     category: "Music",
     backgroundColor: "#E61E32",
-    image: "/assets/music.png"
+    image: "./music.png"
   },
   {
     id: 8,
     category: "Fiction",
     backgroundColor: "#6CD061",
-    image: "/assets/fiction.png"
+    image: "./fiction.png"
   },
 ]
 
@@ -85,7 +85,7 @@ export default function Genre() {
           </div>
 
           <p style={{fontFamily: 'Roboto', color: '#FF0000', marginTop: '30px'}}>
-            {selectedMovie.length < 3 ? <div><img style={{width: '20px'}} src="/assets/warning.png" alt="warning" />&nbsp; Minimum 3 category required</div> : null}
+            {selectedMovie.length < 3 ? <div><img style={{width: '20px'}} src="./warning.png" alt="warning" />&nbsp; Minimum 3 category required</div> : null}
           </p>
         </div>
 

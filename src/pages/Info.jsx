@@ -47,7 +47,7 @@ const UserData = () => {
   return (
     <div style={{ display: 'flex', backgroundColor: '#5746EA', padding: '1rem', borderRadius: '12px' }}>
       <div>
-        <img width={80} src="/assets/info.png" alt="userPic" />
+        <img width={80} src="./info.png" alt="userPic" />
       </div>
 
       <div style={{ padding: '0.5rem 2.5rem', fontFamily: 'Roboto', color: '#FFFFFF' }}>
@@ -230,7 +230,7 @@ const WeatherData = () => {
         </div>
         |
         <div style={{display: 'flex'}}>
-          <img width={25} src="/assets/pressure.png" alt="pressure" />
+          <img width={25} src="./pressure.png" alt="pressure" />
           <div style={{fontSize: '1.2rem', marginLeft: '10px'}}>
             <p>{weather.current_observation.atmosphere.pressure} mbar</p>
             <p>Pressure</p>
@@ -239,7 +239,7 @@ const WeatherData = () => {
         |
         <div>
           <div style={{display: 'flex', marginBottom: '10px'}}>
-            <img width={15} src="/assets/wind.png" alt="wind" />
+            <img width={15} src="./wind.png" alt="wind" />
             <div style={{fontSize: '0.6rem', marginLeft: '8px'}}>
               <p>{weather.current_observation.wind.speed} km/h</p>
               <p>Wind</p>
@@ -247,7 +247,7 @@ const WeatherData = () => {
           </div>
 
           <div style={{display: 'flex'}}>
-            <img width={15} src="/assets/humidity.png" alt="humidity" />
+            <img width={15} src="./humidity.png" alt="humidity" />
             <div style={{fontSize: '0.6rem', marginLeft: '8px'}}>
               <p>{weather.current_observation.atmosphere.humidity}%</p>
               <p>Humidity</p>
@@ -359,23 +359,23 @@ const Timer = () => {
 
             <div style={styles.timerDivs}>
               <p style={styles.timing}>Hours</p>
-              <img width={20} src="/assets/increament.png" alt="increaseHour" onClick={increaseHour} style={styles.arrows} />
+              <img width={20} src="./increament.png" alt="increaseHour" onClick={increaseHour} style={styles.arrows} />
               <p style={styles.timer}>{hours}</p>
-              <img width={20} src="/assets/decrement.png" alt="decreaseHour" onClick={decreaseHour} style={styles.arrows} />
+              <img width={20} src="./decrement.png" alt="decreaseHour" onClick={decreaseHour} style={styles.arrows} />
             </div>
 
             <div style={styles.timerDivs}>
               <p style={styles.timing}>Minutes</p>
-              <img width={20} src="/assets/increament.png" alt="increaseMinute" onClick={increaseMinute} style={styles.arrows} />
+              <img width={20} src="./increament.png" alt="increaseMinute" onClick={increaseMinute} style={styles.arrows} />
               <p style={styles.timer}>{minutes}</p>
-              <img width={20} src="/assets/decrement.png" alt="decreaseMinute" onClick={decreaseMinute} style={styles.arrows} />
+              <img width={20} src="./decrement.png" alt="decreaseMinute" onClick={decreaseMinute} style={styles.arrows} />
             </div>
 
             <div style={styles.timerDivs}>
               <p style={styles.timing}>Seconds</p>
-              <img width={20} src="/assets/increament.png" alt="increaseSecond" onClick={increaseSecond} style={styles.arrows} />
+              <img width={20} src="./increament.png" alt="increaseSecond" onClick={increaseSecond} style={styles.arrows} />
               <p style={styles.timer}>{seconds}</p>
-              <img width={20} src="/assets/decrement.png" alt="decreaseSecond" onClick={decreaseSecond} style={styles.arrows} />
+              <img width={20} src="./decrement.png" alt="decreaseSecond" onClick={decreaseSecond} style={styles.arrows} />
             </div>
           </div>
 

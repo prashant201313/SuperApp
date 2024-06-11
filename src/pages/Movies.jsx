@@ -483,7 +483,7 @@ export default function Movies() {
     <div style={{ padding: '20px 30px', background: '#000000'}}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <p style={{ fontFamily: 'Single Day', color: '#72DB73', fontSize: '2.5rem', marginBottom: '2rem' }}>Super app</p>
-        <img onClick={() => navigate('/info')} style={{ width: '4%', cursor: 'pointer' }} src="/assets/profile.png" alt="profile" />
+        <img onClick={() => navigate('/info')} style={{ width: '4%', cursor: 'pointer' }} src="./profile.png" alt="profile" />
       </div>
 
       <div style={{ width: '95vw', margin: 'auto' }}>
