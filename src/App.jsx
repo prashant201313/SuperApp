@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import Form from "./pages/Form"
 import Genre from "./pages/Genre"
 import Info from "./pages/Info"
@@ -7,7 +7,7 @@ import NotFound from "./pages/404"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Form />} />
         <Route path="/genre" element={<Genre />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="/movies" element={<Movies />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
